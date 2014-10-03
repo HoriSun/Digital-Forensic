@@ -3,6 +3,7 @@
 
 /******History Of Changes*****
 * 最新的修改，请添加在在最上方,注明修改人，日期，和改动
+* 3/10/2014  黄镇杰 FUNCTION_OK 单词修正
 * 3/10/2014  张清柏 IM_DEV_MATCH 图像设备匹配：两张图片大小格式不同
 * 3/10/2014  黄镇杰 VIDEO_RECAP_FAIL 翻录检测：抖动过大，无法检测
 * 3/10/2014  杨帆  不同类型之间的错误不连续定义，增加matlab无法计算的错误
@@ -14,7 +15,7 @@
 #define _SYSSTATEDEF_01
 
 /*统一*/
-#define FUCTION_OK           00   //正常状态
+#define FUNCTION_OK          00   //正常状态
 #define DLL_INITI_ERRO      -01   //调用matlab生成的DLL初始化失败
 #define PARAMERROR          -02   //参数输入异常
 #define UNKNOWNERROR        -03   //未知异常
