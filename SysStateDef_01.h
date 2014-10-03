@@ -3,7 +3,8 @@
 
 /******History Of Changes*****
 * 最新的修改，请添加在在最上方,注明修改人，日期，和改动
-* 3/10/2014  黄镇杰 增加翻录检测抖动错误VIDEO_RECAP_FAIL
+* 3/10/2014  张清柏 IM_DEV_MATCH 图像设备匹配：两张图片大小格式不同
+* 3/10/2014  黄镇杰 VIDEO_RECAP_FAIL 翻录检测：抖动过大，无法检测
 * 3/10/2014  杨帆  不同类型之间的错误不连续定义，增加matlab无法计算的错误
 * 3/10/2014  黎杰  创建
 *****************************/
@@ -26,6 +27,7 @@
 /*图像宏定义*/
 #define IMAGE_OPEN_ERRO     -20   //图像文件打开错误
 #define IMAGE_FROMATE_ERRO  -21   //图像格式不支持
+#define IMGSIZENOTEQUAL     -22   //IM_DEV_MATCH图像设备匹配：图像尺寸格式不匹配，设备匹配两张图片需大小格式相同
 
 /*视频宏定义*/
 #define VIDEO_OPEN_ERRO     -30   //视频文件打开错误
@@ -34,6 +36,7 @@
 
 /*其它*/
 #define PSRN_ERRO           -40   //psnr调用出错，黎杰  VideoCodecDetector函数
+
 
 #endif
 
