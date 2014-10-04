@@ -3,6 +3,7 @@
 
 /******History Of Changes*****
 * 最新的修改，请添加在在最上方,注明修改人，日期，和改动
+* 4/10/2014  黄镇杰 增加 DLL_NOT_FOUND ：动态加载的DLL未找到
 * 4/10/2014  黄镇杰 修改-01错误为 MATLAB_INIT_ERROR
 * 3/10/2014  黄镇杰 FUNCTION_OK 单词修正
 * 3/10/2014  张清柏 IM_DEV_MATCH 图像设备匹配：两张图片大小格式不同
@@ -21,6 +22,7 @@
 #define PARAMERROR          -02   //参数输入异常
 #define UNKNOWNERROR        -03   //未知异常
 #define MATLAB_COUNT_ERRO   -04   //输入的数据，matlab无法完成计算
+#define DLL_NOT_FOUND       -05   //动态加载的DLL未找到
 
 /*音频宏定义*/
 #define AUDIO_OPEN_ERRO     -10   //音频文件打开错误
