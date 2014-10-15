@@ -30,13 +30,14 @@
 
 /******History Of Changes*****
 * 最新的修改，请添加在在最上方,注明修改人，日期，和改动
-* 4/10/2014  黄镇杰 增加 DLL_NOT_FOUND ：动态加载的DLL未找到
-* 4/10/2014  黄镇杰 修改-01错误为 MATLAB_INIT_ERROR
-* 3/10/2014  黄镇杰 FUNCTION_OK 单词修正
-* 3/10/2014  张清柏 IM_DEV_MATCH 图像设备匹配：两张图片大小格式不同
-* 3/10/2014  黄镇杰 VIDEO_RECAP_FAIL 翻录检测：抖动过大，无法检测
-* 3/10/2014  杨帆  不同类型之间的错误不连续定义，增加matlab无法计算的错误
-* 3/10/2014  黎杰  创建
+* 15/10/2014  黄嘉斌 增加 VIDEO_PARSE_ERRO ：视频格式检测，解析错误
+*  4/10/2014  黄镇杰 增加 DLL_NOT_FOUND ：动态加载的DLL未找到
+*  4/10/2014  黄镇杰 修改-01错误为 MATLAB_INIT_ERROR
+*  3/10/2014  黄镇杰 FUNCTION_OK 单词修正
+*  3/10/2014  张清柏 IM_DEV_MATCH 图像设备匹配：两张图片大小格式不同
+*  3/10/2014  黄镇杰 VIDEO_RECAP_FAIL 翻录检测：抖动过大，无法检测
+*  3/10/2014  杨帆  不同类型之间的错误不连续定义，增加matlab无法计算的错误
+*  3/10/2014  黎杰  创建
 *****************************/
 
 
@@ -61,6 +62,7 @@
 #define VIDEO_OPEN_ERRO     -30   //视频文件打开错误
 #define VIDEO_FORMATE_ERRO  -31   //视频格式不支持
 #define VIDEO_RECAP_FAIL    -32   //VI_RECAPTURE翻录检测：视频抖动太大无法检测
+#define VIDEO_PARSE_ERRO	-33	  //视频格式检测，解析错误
 
 /*其它*/
 #define PSRN_ERRO           -40   //psnr调用出错，黎杰  VideoCodecDetector函数
